@@ -3,7 +3,7 @@
 
 Name:           %{parent}-%{subname}
 Version:        1.0
-Release:        0.14.a7%{?dist}
+Release:        0.13.a7%{?dist}
 Epoch:          0
 Summary:        Plexus Bsh component factory
 License:        MIT
@@ -54,9 +54,6 @@ cp -p %{SOURCE3} .
 %doc plexus-bsh-factory-license.txt
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.0-0.14.a7
-- Mass rebuild 2013-12-27
-
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 0:1.0-0.13.a7
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
